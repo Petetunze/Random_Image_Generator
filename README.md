@@ -13,13 +13,10 @@ For example:
     - Child Folder 2
     - ...
     
-Firstly, the program reads the amount of child folders and create an array with x many elements.
-
-Secondly, it iterates through every child folder and randomaly choose an "attribute".
-Each index in the array represents the child folder and each element is an integer representing the "index" of the chosen attribute.
-Next, it generates an image from the integer array.
-The program goes thru the child folders and saves the according image from the array to an array of files.
-Finally, it renders the image by layering it and saves it.
+- Firstly, the program generates an integer array where every index of the array represents the respective child folder and each integer element represents the "index" of the chosen image.
+- Secondly, the progam then takes in the integer array and generates the image. It loops thru all child folders and chooses the correct image based on the current element.
+- Next, the images are saves into an array of type File[] to be looped througth and layered onto a BufferedImage.
+- Finally, the image is saved into the output folder.
 
 Note: The program is more of an archival thing.
 While it can be used by someone else, it is not recommended.
