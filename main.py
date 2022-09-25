@@ -15,7 +15,7 @@ from selenium.webdriver.chrome import options
 # Main
 
 opt = webdriver.ChromeOptions()
-opt.add_extension("D:\\Python Workshop\\AutoUpload\\MetaMask.crx")
+opt.add_extension("D:\\AutoUpload\\MetaMask.crx")
 
 driver = webdriver.Chrome(options=opt)
 driver.get("https://www.google.com/")
@@ -57,7 +57,7 @@ except TimeoutError:
 
 
 try:
-    PASSPHRASE = "problem empower dice oak used angry survey destroy oyster rural labor dash"
+    PASSPHRASE = ""
     wordList = list(PASSPHRASE.split(" "))
 
     xpathList = ["/html/body/div[1]/div/div[2]/div/div/div[2]/form/div[1]/div[3]/div[1]/div[1]/div/input",
@@ -91,7 +91,7 @@ except TimeoutError:
 
 
 try:
-    PASSWORD = "j/Y`X?2\\?{$eHwQe_&^57g\"gn*?McvxC'7_A>Zn+7Y*P\"PcgefR~8kDWjW]h%r4#"
+    PASSWORD = ""
 
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div[2]/div/div/div[2]/form/div[2]/div[1]/div/input")))
     driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div/div/div[2]/form/div[2]/div[1]/div/input").send_keys(PASSWORD)
