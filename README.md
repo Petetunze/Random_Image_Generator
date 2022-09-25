@@ -12,7 +12,12 @@ This parent folder then has any amount of child folders where each child folder 
 For example:
 - Parent Folder
     - Child Folder 1
+      - image1.png
+      - image2.png
+       
     - Child Folder 2
+      - image1.png
+      - image2.png
     - ...
     
 - Firstly, the program generates an integer array where every index of the array represents the respective child folder and each integer element represents the "index" of the chosen image.
