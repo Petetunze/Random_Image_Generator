@@ -1,10 +1,9 @@
-# Personal Project : NFT Image Generator and Auto Uploader
+# Personal Project : Random Image Generator
 
 Objective:
 Take a folder and its subfolders that contains PNG images of different image layers.
 For example a background image, body, and different accessories and features.
 The program then generates an image and saves it.
-Upload the images with meta data to an NFT market place.
 There are generated sample images to understand what it created!
    
 
@@ -27,12 +26,5 @@ For example:
 - Next, the images are saves into an array of type File[] to be looped througth and layered onto a BufferedImage.
 - Finally, the image is saved into the output folder.
 
-Program Outline for Auto Uploader: Simple Python script to navigate Chrome and upload the images.
-Lots of try-excepts to make sure the program doesn't straight up crash.
-Used Selenium to navigate the pages.
-
-Note: These programs are more of an archival thing.
-While it can be used by someone else, it is not recommended.
-Additionally, this project was written myself.
-The images were drawn by colleagues.
-While the general NFT project didn't get far, it was a valuable learning expierence to try new things.
+Additionally, this code was written myself.
+The images were drawn by colleagues, so much credit to them!
