@@ -1,4 +1,4 @@
-# Personal Project : Random Image Generator
+# Personal Project :Googly Geodes Image Generator
 
 Objective:
 Take a folder and its subfolders that contains PNG images of different image layers.
